@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Teste PokeApi React
 
-Esse teste tem como objetivo a criação de uma aplicação para exibir uma listagem de pokemons ao 
+Esse teste tem como objetivo a criação de uma aplicação em react para exibir uma listagem de pokemons ao 
 usuário, para que assim ele consiga ver e favoritar seu time.
 
 Teremos duas telas para tal:
@@ -36,3 +36,8 @@ O design da aplicação fica por conta do dev, seja criativo.
 Fica da escolha do dev utilizar ou não frameworks ou libs de componenentes para ajudar na estilização.
 
 Todos os comandos para rodar o boilerplate, testes e coverage estão no package.json
+
+#### Realização e entrega
+
+Para realizar o teste, basta apenas clonar o repositório, desenvolver a aplicação, hospedar
+seu codigo no github e compartilhar o link.
