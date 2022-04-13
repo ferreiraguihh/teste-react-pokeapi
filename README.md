@@ -29,8 +29,10 @@ testes unitários.
 *   100% de coverage de testes.
 *   Ao clicar no card do pokemon, abrir uma modal com as informações extras que a API traz(Tipo, habilidades, evoluções).
 
-#### Considerações
+#### Considerações finais
 O boilerplate já possuí todo necessário para realização inicial do teste(React, router, jest, axios).
+
 O design da aplicação fica por conta do dev, seja criativo.
 Fica da escolha do dev utilizar ou não frameworks ou libs de componenentes para ajudar na estilização.
+
 Todos os comandos para rodar o boilerplate, testes e coverage estão no package.json
