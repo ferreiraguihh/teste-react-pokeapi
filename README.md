@@ -10,8 +10,8 @@ Teremos duas telas para tal:
     *   Mostra a listagem de pokemons. Cada card de pokemon deve exibir nome e imagem, além de ser possível
     favoritar o pokemon.
     *   A listagem deve possuir paginação, com 20 pokemons por página.
-    *   Além disso, deve ter um campo de busca pelo nome. Esse campo deve filtrar no momento do input de cada letra(detalhe a performance).
-    se existem correspondências para a página atual.
+    *   Além disso, deve ter um campo de busca pelo nome. Esse campo deve filtrar no momento do input de cada letra(detalhe a performance)
+     se existem correspondências para a página atual.
 *   Favoritos
     *   Essa aba exibe os pokemons que o usuário favoritou na listagem(podem ser salvos no localstorage). Não é
     necessário manter os favoritos após recarregar a página.
