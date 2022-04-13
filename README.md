@@ -37,6 +37,13 @@ Fica da escolha do dev utilizar ou não frameworks ou libs de componenentes para
 
 Todos os comandos para rodar o boilerplate, testes e coverage estão no package.json
 
+Será avaliado:
+*   Lógica
+*   Componentização
+*   Estrutura do projeto(componentes, pastas, nomes)
+*   Estrutura de teste(fluxo, lógica e asserção)
+*   Estilização(detalhes)
+
 #### Realização e entrega
 
 Para realizar o teste, basta apenas clonar o repositório, desenvolver a aplicação, hospedar
