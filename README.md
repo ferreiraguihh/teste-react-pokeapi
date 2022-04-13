@@ -10,7 +10,7 @@ Teremos duas telas para tal:
     *   Mostra a listagem de pokemons. Cada card de pokemon deve exibir nome e imagem, além de ser possível
     favoritar o pokemon.
     *   A listagem deve possuir paginação, com 20 pokemons por página.
-    *   Além disso, deve ter um campo de busca pelo nome. Esse campo deve filtrar no momento do input de cada letra(detalhe a performance)
+    *   Além disso, deve ter um campo de busca pelo nome. Esse campo deve filtrar no momento do input de cada letra(Deverá ser observado a performance da aplicação ao realizar a busca)
      se existem correspondências para a página atual.
 *   Favoritos
     *   Essa aba exibe os pokemons que o usuário favoritou na listagem(podem ser salvos no localstorage). Não é
@@ -27,10 +27,10 @@ testes unitários.
 
 #### Desafio extra (Não obrigatório)
 *   100% de coverage de testes.
-*   Ao clicar no card do pokemon, abrir uma modal com as informações extras que a API traz(Tipo, habilidades, evoluções).
+*   Ao clicar no card do pokemon, abrir uma modal com as informações extras que a API traz(Tipo, Stats, Habilidades, Evoluções).
 
 #### Considerações finais
-O boilerplate já possuí todo necessário para realização inicial do teste(React, router, jest, axios).
+O boilerplate já possui todo necessário para realização inicial do teste(React, router, jest, axios).
 
 O design da aplicação fica por conta do dev, seja criativo.
 Fica da escolha do dev utilizar ou não frameworks ou libs de componenentes para ajudar na estilização.
