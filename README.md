@@ -1,50 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Teste PokeApi React
 
-Esse teste tem como objetivo a criação de uma aplicação em react para exibir uma listagem de pokemons ao 
-usuário, para que assim ele consiga ver e favoritar seu time.
+## Codeby - Challenge
 
-Teremos duas telas para tal:
-*   Home
-    *   Mostra a listagem de pokemons. Cada card de pokemon deve exibir nome e imagem, além de ser possível
-    favoritar o pokemon.
-    *   A listagem deve possuir paginação, com 20 pokemons por página.
-    *   Além disso, deve ter um campo de busca pelo nome. Esse campo deve filtrar no momento do input de cada letra(Deverá ser observado a performance da aplicação ao realizar a busca)
-     se existem correspondências para a página atual.
-*   Favoritos
-    *   Essa aba exibe os pokemons que o usuário favoritou na listagem(podem ser salvos no localstorage). Não é
-    necessário manter os favoritos após recarregar a página.
 
-#### API
+### Available Scripts
 
-Vamos utilizar a [PokeAPI](https://pokeapi.co/)
-Todas os requests e docs de ajuda se encontram no link.
+In the project directory, you can run:
 
-#### Desafio(Obrigatório)
-*   Após criar a aplicação, todos os componentes devem possuír um coverage de no mínimo 60% de 
-testes unitários.
+### ` npm start`
 
-#### Desafio extra (Não obrigatório)
-*   100% de coverage de testes.
-*   Ao clicar no card do pokemon, abrir uma modal com as informações extras que a API traz(Tipo, Stats, Habilidades, Evoluções).
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Considerações finais
-O boilerplate já possui todo necessário para realização inicial do teste(React, router, jest, axios).
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-O design da aplicação fica por conta do dev, seja criativo.
-Fica da escolha do dev utilizar ou não frameworks ou libs de componenentes para ajudar na estilização.
 
-Todos os comandos para rodar o boilerplate, testes e coverage estão no package.json
 
-Será avaliado:
-*   Lógica
-*   Componentização
-*   Estrutura do projeto(componentes, pastas, nomes)
-*   Estrutura de teste(fluxo, lógica e asserção)
-*   Estilização(detalhes)
+### Table of contents
+[Project structure](#project-structure)
 
-#### Realização e entrega
+[Installation](#installation)
 
-Para realizar o teste, basta apenas clonar o repositório, desenvolver a aplicação, hospedar
-seu codigo no github e compartilhar o link.
+[Configuration](#configuration)
+
+[Technologies used](#technologies-used)
+
+### Project structure
+
+````
+
+src/
+|- components/                                # All components
+
+|    |- modalPokemon/ 
+        |- ModalPokemon.jsx __________________________ # View Component
+        |- ModalPokemon.test.js __________________________ # View Test
+        |- styles.js __________________________ # Css modules styles
+|    |- pagination/ 
+        |- Pagination.jsx __________________________ # View Component
+        |- styles.js __________________________ # Css modules styles
+|    |- pokemonThumb/ 
+|       |- PokemonThumb.jsx __________________________ # Component  
+        |- styles.js __________________________ # Css modules styles   
+|    |- search/ 
+|       |- Search.jsx __________________________ # Component view 
+|       |- Search.test.jsx __________________________ # View Test 
+        |- styles.js __________________________ # Css modules styles
+|
+|    |- styles  
+        |- global.js __________________________ # Css modules styles  
+
+|- api.js _________________________# API       
+|- App.js _________________________ # All Componets
+|- index.js _________________________ # Render
+````
+
+
+### Installation
+
+1- Clone the project
+
+`git clone git clone https://github.com/ferreiraguihh/teste-react-pokeapi.git`
+
+2-`npm install` to install npm packages
+
+3- start dev server using `npm start`.
+
+4-`npm test` test project
+
+#### Technologies used
+
+* [Webpack 4](https://github.com/webpack/webpack) 
+* [Babel 8](https://github.com/babel/babel) [ transforming JSX and ES6,ES7,ES8 ]
+* [React](https://github.com/facebook/react)
+* [Styled-Components](https://styled-components.com/)
+Create by Guilherme Ferreira dos Santos
